@@ -3,5 +3,5 @@
   <img class="feature-card__icon" src="{{ include.card.icon | relative_url }}" alt="" width="56" height="56">
   {% endif %}
   <h3 class="feature-card__title">{{ include.card.title }}</h3>
-  <p class="feature-card__desc">{{ include.card.desc }}</p>
+  <div class="feature-card__desc">{{ include.card.desc | markdownify }}</div>
 </article>

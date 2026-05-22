@@ -47,6 +47,7 @@
 }
 
 .feature-card__desc { color: var(--color-text); }
+.feature-card__desc p + p { margin-top: 1em; }
 
 .news-list {
   width: 100%;

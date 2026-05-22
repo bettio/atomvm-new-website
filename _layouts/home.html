@@ -6,6 +6,9 @@ layout: default
   {% if hero %}
   <section class="hero">
     <h1 class="hero__title">{{ hero.title }}</h1>
+    {% if hero.subtitle %}
+    <p class="hero__subtitle">{{ hero.subtitle }}</p>
+    {% endif %}
     {% if hero.buttons %}
     <div class="hero__buttons">
       {% for btn in hero.buttons %}
