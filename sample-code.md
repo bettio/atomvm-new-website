@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Sample Code
 permalink: /sample-code/
 ---
@@ -8,7 +8,7 @@ You can get a pretty good idea of how to write programs for AtomVM by looking at
 
 > Note. A passing familiarity with Erlang syntax would be helpful for following along, but most readers familiar with curly-brace programming can use common sense when reading the code snippets below.  For anyone who needs or wants a tutorial introduction to Erlang, we can't recommend [Learn you some Erlang for Great Good](https://learnyousomeerlang.com) enough.
 
-# Hello, World!
+## Hello, World!
 
 Okay, we can't have an set of example programs without including good ol' `Hello world!`.
 
@@ -28,7 +28,7 @@ All AtomVM programs must contain a module with an exported `start/0` function.  
 
 And in this case, the function just prints "Hello world!" to the console, and exits.  (The `~n` tells AtomVM to append a newline to the end of the output, but I bet you guessed that already.)
 
-# Blinky
+## Blinky
 
 The "Hello world!" of the IoT world is "blinky", a program that toggles an LED on and off, every second.  It is a good program to use to test basic functionality of an application.
 
@@ -83,7 +83,7 @@ Again, this problem has been solved now for decades, going back to the early yea
 
 > Exercise for the reader: What about data that is local to the function?  Doesn't a tail recursive function call create a memory leak?  Explain why not.  (Hint: Is any data that is not passed into the tail recursive function as a parameter of any value?)
 
-# Blinky2
+## Blinky2
 
 The `blinky` program is nice and small, but there is a small problem with it.  The program runs in a non-terminating loop (which in itself, is fine), but the AtomVM VM is stuck in that loop, and can't do anything else.  How do we get our programs to do more than one thing at a time?
 
@@ -134,4 +134,4 @@ Here is the full program, in its entirety:
 
 
 
-# More to come!
+## More to come!

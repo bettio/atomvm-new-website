@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<main class="home">
+  {% assign hero = site.data.home.hero %}
+  {% if hero %}
+  <section class="hero">
+    <h1 class="hero__title">{{ hero.title }}</h1>
+    {% if hero.buttons %}
+    <div class="hero__buttons">
+      {% for btn in hero.buttons %}
+      <a href="{{ btn.url }}" class="btn btn--{{ btn.style | default: 'primary' }}">
+        {% include button_icon.html icon=btn.icon %}
+        {{ btn.label }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </section>
+  {% endif %}
+
+  {% if site.data.home.feature_cards %}
+  <section class="features">
+    <div class="features__grid">
+      {% for card in site.data.home.feature_cards %}
+        {% include feature_card.html card=card %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {% if site.data.home.news %}
+  <section class="news-section">
+    <header class="page-header">
+      <h2>{{ site.data.home.news.heading }}</h2>
+    </header>
+    <div class="news-list">
+      {% assign show_count = site.data.home.news.show_count | default: 3 %}
+      {% for post in site.posts limit: show_count %}
+        {% include news_card.html post=post %}
+      {% endfor %}
+    </div>
+    <a href="{{ site.data.home.news.see_more_url | default: '/news/' | relative_url }}" class="btn btn--secondary news-more">{{ site.data.home.news.see_more_label }}</a>
+  </section>
+  {% endif %}
+
+  {{ content }}
+</main>

@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-regular);
+  letter-spacing: 0.01em;
+}
+
+h1 { font-size: var(--h1-size); line-height: var(--h1-leading); }
+h2 { font-size: var(--h2-size); line-height: var(--h2-leading); }
+h3 { font-size: var(--h3-size); line-height: var(--h3-leading); }
+h4 { font-size: var(--h4-size); line-height: var(--h4-leading); }
+h5 { font-size: var(--h5-size); line-height: var(--h5-leading); }
+
+strong, b { font-weight: var(--weight-bold); }
+
+.text-secondary {
+  font-size: var(--body-secondary-size);
+  line-height: var(--body-secondary-leading);
+}
+
+.text-tertiary {
+  font-size: var(--body-tertiary-size);
+  line-height: var(--body-tertiary-leading);
+}
+
+code, kbd, samp, pre {
+  font-family: var(--font-mono);
+}

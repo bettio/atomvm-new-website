@@ -1,0 +1,42 @@
+code, kbd, samp {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+:not(pre) > code {
+  background: var(--color-code-inline-bg);
+  color: var(--color-code-inline-text);
+  padding: 0.1em 0.45em;
+  border-radius: var(--radius-small);
+}
+
+pre {
+  background: var(--color-code-block-bg);
+  color: var(--color-code-block-text);
+  padding: 1em 1.25em;
+  border-radius: var(--radius-medium);
+  overflow-x: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  font-size: inherit;
+  border-radius: 0;
+}
+
+.highlight, .highlighter-rouge {
+  background: var(--color-code-block-bg);
+  color: var(--color-code-block-text);
+  border-radius: var(--radius-medium);
+  overflow: hidden;
+}
+
+.highlighter-rouge .highlight,
+.highlight pre {
+  background: transparent;
+  margin: 0;
+}

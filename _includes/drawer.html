@@ -1,0 +1,22 @@
+<div class="drawer" id="primary-drawer" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site menu">
+  <div class="drawer__backdrop" data-drawer-close></div>
+  <div class="drawer__panel">
+    <div class="drawer__top">
+      <a href="{{ '/' | relative_url }}" class="navbar__brand" aria-label="{{ site.title }} home">
+        <img class="brand-mark" src="{{ '/assets/images/logo-mark.svg' | relative_url }}" alt="" width="32" height="32">
+        <span class="navbar__brand-text">{{ site.title }}</span>
+      </a>
+      <button type="button" class="drawer__close" aria-label="Close menu" data-drawer-close>
+        <svg viewBox="0 0 24 24" aria-hidden="true" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="6" y1="6" x2="18" y2="18"/>
+          <line x1="6" y1="18" x2="18" y2="6"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="drawer__links" aria-label="Site">
+      {% for entry in site.data.home.navbar_entries %}
+      <a href="{{ entry.url | relative_url }}" data-drawer-close>{{ entry.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</div>

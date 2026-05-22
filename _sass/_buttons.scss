@@ -1,0 +1,32 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 22px;
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  font-size: var(--body-primary-size);
+  line-height: 1;
+  border: var(--stroke-default) solid transparent;
+  font-family: inherit;
+  transition: filter 0.15s ease;
+  cursor: pointer;
+}
+
+.btn:hover { filter: brightness(0.92); }
+
+.btn--primary {
+  background: var(--color-btn-primary-bg);
+  color: var(--color-btn-primary-text);
+}
+
+.btn--secondary {
+  background: var(--color-btn-secondary-bg);
+  color: var(--color-btn-secondary-text);
+  border-color: var(--color-btn-secondary-border);
+}
+
+.btn__icon {
+  width: 20px;
+  height: 20px;
+}

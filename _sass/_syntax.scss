@@ -1,0 +1,20 @@
+.highlight {
+  .c, .ch, .cd, .cm, .cp, .cpf, .c1, .cs { color: var(--gs-500); font-style: italic; }
+
+  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: var(--az-300); }
+
+  .s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: var(--az-200); }
+
+  .m, .mb, .mf, .mh, .mi, .mo, .il { color: var(--az-100); }
+
+  .nb, .bp, .nc, .nf, .nx, .ne { color: var(--az-400); }
+
+  .na, .nt { color: var(--az-300); }
+
+  .p, .o, .ow { color: var(--gs-300); }
+
+  .err { color: var(--gs-0); background: transparent; }
+
+  .gd { color: #ff7b8c; }
+  .gi { color: #7fdf8b; }
+}

@@ -1,9 +1,8 @@
 ---
-layout: post
+layout: page
 title: Extensions
 permalink: /extensions/
 ---
-# Tooling, Drivers, and Libraries
 
 Several users in the AtomVM community have provided extensions to AtomVM to support integrations
 with specific peripherals and networking protocols.  These extensions are growing and currently

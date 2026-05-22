@@ -1,0 +1,8 @@
+<div class="post-meta">
+  {% if page.date %}
+  <time class="post-meta__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+  <span class="post-meta__dot" aria-hidden="true"></span>
+  {% endif %}
+  {% assign mins = content | number_of_words | divided_by: 200 | plus: 1 %}
+  <span class="post-meta__read">{{ mins }} min read</span>
+</div>

@@ -1,0 +1,115 @@
+.footer-wrap {
+  background: var(--color-surface);
+  color: var(--color-text);
+  padding: 48px 16px 32px;
+  margin-top: auto;
+}
+
+.footer {
+  max-width: 1420px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer__column-heading {
+  font-size: var(--body-secondary-size);
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__column-links a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: var(--body-primary-size);
+}
+
+.footer__column-links a:hover { text-decoration: underline; }
+
+.footer__cta {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-btn-primary-bg);
+  color: var(--color-btn-primary-text);
+  padding: 14px 22px;
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  font-size: var(--body-primary-size);
+}
+
+.footer__cta:hover {
+  filter: brightness(0.85);
+  color: var(--color-btn-primary-text);
+}
+
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footer__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.footer__brand-text {
+  font-weight: var(--weight-bold);
+  font-size: var(--h3-size);
+  line-height: 1;
+}
+
+.footer__copyright {
+  font-size: var(--body-secondary-size);
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 768px) {
+  .footer-wrap { padding: 64px 24px 32px; }
+  .footer__columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 64px;
+    row-gap: 32px;
+  }
+  .footer__top {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer__bottom {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-wrap { padding: 80px 24px 40px; }
+  .footer__columns { column-gap: 96px; }
+}

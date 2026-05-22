@@ -1,0 +1,63 @@
+:root {
+  --gs-1000: #0F131A;
+  --gs-900:  #1C232D;
+  --gs-800:  #2F3741;
+  --gs-700:  #45515E;
+  --gs-600:  #6F7E8B;
+  --gs-500:  #9BA9B5;
+  --gs-400:  #BCC9D2;
+  --gs-300:  #D0DCE2;
+  --gs-200:  #E2E9ED;
+  --gs-100:  #ECF0F3;
+  --gs-50:   #F9FAFB;
+  --gs-0:    #FFFFFF;
+
+  --az-1000: #086DB5;
+  --az-900:  #147CC8;
+  --az-800:  #178CDE;
+  --az-700:  #289AEB;
+  --az-600:  #3DA9F5;
+  --az-500:  #4FB6FF;
+  --az-400:  #6FC3FF;
+  --az-300:  #90D1FF;
+  --az-200:  #B3E0FF;
+  --az-100:  #D5EDFF;
+  --az-50:   #EDF8FF;
+
+  --radius-small:  4px;
+  --radius-medium: 8px;
+  --radius-big:    12px;
+  --radius-full:   9999px;
+
+  --stroke-default: 1px;
+  --stroke-active:  2px;
+
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --weight-regular: 400;
+  --weight-bold:    550;
+
+  --h1-size: 28px;   --h1-leading: 42px;
+  --h2-size: 26px;   --h2-leading: 40px;
+  --h3-size: 24px;   --h3-leading: 36px;
+  --h4-size: 22px;   --h4-leading: 32px;
+  --h5-size: 20px;   --h5-leading: 30px;
+
+  --body-primary-size:    18px;   --body-primary-leading:    32px;
+  --body-secondary-size:  14px;   --body-secondary-leading:  24px;
+  --body-tertiary-size:   12px;   --body-tertiary-leading:   16px;
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --h1-size: 44px;   --h1-leading: 66px;
+    --h2-size: 40px;   --h2-leading: 60px;
+    --h3-size: 32px;   --h3-leading: 48px;
+    --h4-size: 24px;   --h4-leading: 36px;
+  }
+}
+
+$bp-md: 768px;
+$bp-lg: 1280px;
+$bp-xl: 1600px;

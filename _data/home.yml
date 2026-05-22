@@ -1,43 +1,68 @@
 navbar_entries:
-  - title: download
-    url: https://github.com/atomvm/AtomVM/releases
-
-  - title: news
-    url: news
-
-  - title: doc
-    url: https://doc.atomvm.org/latest
-
-  - title: github
-    url: https://github.com/atomvm
-
-  - title: extensions
-    url: extensions
-
-  - title: forum
-    url: https://erlangforums.com/c/erlang-platforms/atomvm-forum/76
-
-  - title: contact
-    url: contact
-
-project_entries:
   - title: Documentation
     url: https://doc.atomvm.org/latest
-    desc: AtomVM documentation, from soup to nuts.  Everything you want to know about AtomVM!
+  - title: News
+    url: /news/
+  - title: Extensions
+    url: /extensions/
+  - title: Forum
+    url: https://erlangforums.com/c/erlang-platforms/atomvm-forum/76
 
-  - title: Sample Code
-    url: sample-code
-    desc: See some sample programs in action
-    highlight: WIP
+hero:
+  title: "AtomVM is a lightweight implementation of the Bogdan Erlang Abstract Machine (<em>aka</em>, the BEAM), a virtual machine that can execute byte-code instructions compiled from Erlang or Elixir source code."
+  buttons:
+    - label: Download on Github
+      url: https://github.com/atomvm/AtomVM/releases
+      icon: github
+      style: primary
+    - label: Check documentation
+      url: https://doc.atomvm.org/latest
+      icon: book
+      style: secondary
 
-  - title: Tutorials
-    url: tutorials
-    desc: Step-by-step guides to getting started with AtomVM
-    highlight: WIP
+feature_cards:
+  - title: "Functional, Virtual Machine"
+    desc: "AtomVM supports a limited but functional subset of the BEAM opcodes, and also includes a small subset of the Erlang/OTP standard libraries, all optimized to run on tiny micro-controllers."
+    icon: /assets/images/feature-01.svg
+  - title: "IoT Made Easier"
+    desc: "With AtomVM, you can write your IoT applications in a functional programming language, using a modern actor-based concurrency model, making them vastly easier to write and understand!"
+    icon: /assets/images/feature-02.svg
+  - title: "Built-In Advanced Features"
+    desc: "AtomVM includes many advanced features, including process spawning, monitoring, message passing, pre-emptive scheduling, and efficient garbage collection."
+    icon: /assets/images/feature-03.svg
+  - title: "Peripherals & Protocols"
+    desc: "It can also interface directly with peripherals and protocols supported on micro-controllers, such as GPIO, I2C, SPI, and UART.  It also supports WiFi networking on devices that support it, such as the Espressif ESP32.  All of this on a device that can cost as little as $2!"
+    icon: /assets/images/feature-04.svg
 
+news:
+  heading: "Latest AtomVM news & announcements"
+  show_count: 3
+  see_more_label: "See more news"
+  see_more_url: /news/
 
-footer_entries:
-  - title: AtomVM on Github
-    url: https://github.com/atomvm/AtomVM
-  - title: AtomVMLib
-    url: https://github.com/atomvm/atomvm_lib
+footer:
+  columns:
+    - heading: Find us
+      links:
+        - title: Our forum
+          url: https://erlangforums.com/c/erlang-platforms/atomvm-forum/76
+        - title: Telegram
+          url: https://t.me/atomvm
+        - title: Discord
+          url: https://discord.gg/QA7fNjm9Nw
+        - title: info@atomvm.org
+          url: mailto:info@atomvm.org
+    - heading: Learn more
+      links:
+        - title: Documentation
+          url: https://doc.atomvm.org/latest
+        - title: Sample Code
+          url: /sample-code/
+        - title: Extensions
+          url: /extensions/
+        - title: Tutorials
+          url: /tutorials/
+  cta:
+    label: Download on Github
+    url: https://github.com/atomvm/AtomVM/releases
+  copyright: "© 2026 The AtomVM Project"

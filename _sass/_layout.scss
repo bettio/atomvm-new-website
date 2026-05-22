@@ -1,0 +1,89 @@
+.page {
+  flex: 1;
+  width: 100%;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.page-header {
+  width: 100%;
+  max-width: 936px;
+  text-align: center;
+}
+
+.page-header h1,
+.page-header h2 {
+  font-weight: var(--weight-bold);
+}
+
+.content-card {
+  width: 100%;
+  max-width: 936px;
+  background: var(--color-surface);
+  border-radius: var(--radius-big);
+  padding: 32px 24px;
+}
+
+.home {
+  flex: 1;
+  width: 100%;
+  padding: 32px 16px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1136px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero__title {
+  font-weight: var(--weight-regular);
+}
+
+.hero__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.features {
+  width: 100%;
+  max-width: 1420px;
+}
+
+.news-section {
+  width: 100%;
+  max-width: 1420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.news-more {
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .page         { padding: 48px 24px; gap: 40px; }
+  .content-card { padding: 48px 64px; }
+  .home         { padding: 56px 24px 96px; gap: 80px; }
+}
+
+@media (min-width: 1280px) {
+  .page         { padding: 64px 24px; gap: 56px; }
+  .content-card { padding: 64px 96px; }
+  .home         { padding: 96px 24px 128px; gap: 120px; }
+}

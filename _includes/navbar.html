@@ -1,0 +1,23 @@
+<header class="navbar-wrap">
+  <div class="navbar">
+    <a href="{{ '/' | relative_url }}" class="navbar__brand" aria-label="{{ site.title }} home">
+      <img class="brand-mark" src="{{ '/assets/images/logo-mark.svg' | relative_url }}" alt="" width="32" height="32">
+      <span class="navbar__brand-text">{{ site.title }}</span>
+    </a>
+    <nav class="navbar__links" aria-label="Primary">
+      {% for entry in site.data.home.navbar_entries %}
+      <a href="{{ entry.url | relative_url }}">{{ entry.title }}</a>
+      {% endfor %}
+    </nav>
+    <div class="navbar__controls">
+      {% include theme_toggle.html %}
+      <button type="button" class="navbar__hamburger" aria-label="Open menu" aria-controls="primary-drawer" aria-expanded="false" data-drawer-open>
+        <svg viewBox="0 0 24 24" aria-hidden="true" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="7"  x2="20" y2="7"/>
+          <line x1="4" y1="12" x2="20" y2="12"/>
+          <line x1="4" y1="17" x2="20" y2="17"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Nix Flake Setup for ESP32 Development with AtomVM"
 ---
 

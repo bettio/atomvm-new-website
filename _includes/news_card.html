@@ -1,0 +1,19 @@
+<article class="news-card">
+  <div class="news-card__content">
+    <div class="news-card__meta">
+      {% if include.post.date %}
+      <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %-d, %Y" }}</time>
+      <span class="post-meta__dot" aria-hidden="true"></span>
+      {% endif %}
+      {% assign mins = include.post.content | number_of_words | divided_by: 200 | plus: 1 %}
+      <span>{{ mins }} min read</span>
+    </div>
+    <h2 class="news-card__title">
+      <a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a>
+    </h2>
+    {% if include.post.excerpt %}
+    <p class="news-card__excerpt">{{ include.post.excerpt | strip_html | truncatewords: 30 }}</p>
+    {% endif %}
+  </div>
+  <a href="{{ include.post.url | relative_url }}" class="news-card__cta">Read more</a>
+</article>
