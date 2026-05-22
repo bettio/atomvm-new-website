@@ -5,8 +5,6 @@ author: The AtomVM Team
 excerpt_separator: <!--more-->
 ---
 
-## 2025/05/27 Emergency bug fix release `atomvm_rebar3_plugin 0.7.5` is available
-
 We have released [atomvm_rebar3_plugin 0.7.5](https://github.com/atomvm/atomvm_rebar3_plugin/releases/tag/0.7.5)
 as an emergency bug fix for the broken dependencies when pulling
 [atomvm_rebar3_plugin from hex.pm](https://hex.pm/packages/atomvm_rebar3_plugin).

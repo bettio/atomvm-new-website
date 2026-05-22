@@ -4,8 +4,6 @@ title: AtomVM `master` branch renamed
 excerpt_separator: <!--more-->
 ---
 
-## 2024/02/22 Recent updates to the name of the `master` branch.
-
 Earlier this month the name of the [AtomVM](https://github.com/atomvm/AtomVM) `master` branch was renamed to `main`.  If you have previously made a local clone of the repository, and would like to keep up to date with changes to the `main` branch, there are a few `git` commands that will rename your local copy and update the git configuration to track the `main` AtomVM branch on GitHub.
 
 From inside your local clone of [AtomVM](https://github.com/atomvm/AtomVM):

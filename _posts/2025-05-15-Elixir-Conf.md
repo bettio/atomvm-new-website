@@ -4,8 +4,6 @@ title: "Unveiling Popcorn at ElixirConf EU 2025 Keynote: New Horizons for Client
 author: The AtomVM Team
 excerpt_separator: <!--more-->
 ---
-# 2025/05/15 Unveiling Popcorn at ElixirConf EU 2025 Keynote: New Horizons for Client-Side Elixir
-
 We're thrilled to share exciting news from the recent [ElixirConf EU](https://www.elixirconf.eu/) 2025! The first keynote, "The AtomVM and New Horizons for Elixir," presented by [Davide Bettio](https://uninstall.it/) and [Mateusz Front](https://github.com/mat-hek), introduced a groundbreaking new library called [Popcorn](https://github.com/software-mansion/popcorn).
 
 For those who missed the keynote, you can watch it here: [Keynote: The AtomVM and New Horizons for Elixir](https://www.youtube.com/watch?v=ep--rQO1FRI).

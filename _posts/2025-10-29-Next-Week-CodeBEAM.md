@@ -5,8 +5,6 @@ author: The AtomVM Team
 excerpt_separator: <!--more-->
 ---
 
-# 2025-10-29 Next Week: AtomVM Takes the Stage at CodeBEAM Berlin 2025
-
 We're excited to announce that AtomVM will be featured in two compelling talks at CodeBEAM Berlin 2025 next week! Join us to learn about the latest developments in running BEAM languages on microcontrollers and beyond.
 
 <!--more-->

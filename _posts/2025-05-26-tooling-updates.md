@@ -5,8 +5,6 @@ author: The AtomVM Team
 excerpt_separator: <!--more-->
 ---
 
-## 2025/05/26 Updates available for `atomvm_packbeam` and `atomvm_rebar3_plugin`
-
 Updates for both [`atomvm_packbeam` 0.7.4](https://github.com/atomvm/atomvm_packbeam/releases/tag/0.7.4)
 and [`atomvm_rebar3_plugin` 0.7.4](https://github.com/atomvm/atomvm_rebar3_plugin/releases/tag/0.7.4)
 are available from [hex.pm](https://hex.pm/packages?search=atomvm&sort=updated_at) and on GitHub.

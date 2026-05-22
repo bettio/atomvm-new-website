@@ -5,8 +5,6 @@ author: The AtomVM Team
 excerpt_separator: <!--more-->
 ---
 
-# 2026-03-20 Announcing AtomVM v0.7.0-alpha.0
-
 We are thrilled to announce the release of AtomVM v0.7.0-alpha.0, the first pre-release on the road to v0.7.0 and by far the biggest AtomVM release to date. This alpha includes over two year of development work and introduces several groundbreaking features, including distributed Erlang, JIT compilation, big integer support, a comprehensive crypto module, and ETS.
 
 <!--more-->

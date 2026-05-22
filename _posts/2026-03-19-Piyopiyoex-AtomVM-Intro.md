@@ -5,8 +5,6 @@ author: The AtomVM team
 excerpt_separator: <!--more-->
 ---
 
-# 2026-03-19 piyopiyo.ex to Host an Introductory AtomVM Session in Nagoya (2026-03-21)
-
 This weekend, the Elixir community [piyopiyo.ex](https://piyopiyoex.connpass.com/) will host an in-person AtomVM introductory session in Nagoya.
 
 The event, [AtomVM Intro, with a Visit to Toyokuni Jinja](https://piyopiyoex.connpass.com/event/373137/), is structured as a practical entry point for developers who want to get started with AtomVM and embedded Elixir.

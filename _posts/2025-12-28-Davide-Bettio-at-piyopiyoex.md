@@ -5,8 +5,6 @@ author: NISHIGUCHI Masatoshi
 excerpt_separator: <!--more-->
 ---
 
-# 2025-12-28 Davide Bettio Joins piyopiyo.ex in Nagoya for an AtomVM Technical Exchange (2026-01-16)
-
 This January, something exciting is happening in Japan.
 
 [Davide Bettio](https://uninstall.it/), the creator of AtomVM, will visit the country and spend time with the Elixir beginner community [piyopiyo.ex](https://piyopiyoex.connpass.com/) in an in-person technical exchange ([Davide BettioさんとAtomVMを囲む会](https://piyopiyoex.connpass.com/event/377298/)).
